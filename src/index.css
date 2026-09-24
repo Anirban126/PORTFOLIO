@@ -1,0 +1,30 @@
+@import "tailwindcss";
+body{
+  font-family: "Poppins", sans-serif;
+}
+h1, h2{
+  font-family: "Roboto", sans-serif;
+}
+
+/* @layer utilities tells Tailwind CSS where your custom CSS class belongs. */
+@layer utilities{
+  .gradient{
+    background: linear-gradient(-45deg, #302B63,#0BF8 ,#0BF8 );
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(52, 211, 153, 0.8),
+                0 0 16px rgba(52, 211, 153, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 15px rgba(52, 211, 153, 1),
+                0 0 35px rgba(52, 211, 153, 0.9);
+  }
+}
+
+.glowing-dot {
+  animation: glow 2s ease-in-out infinite;
+}
