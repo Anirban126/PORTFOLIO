@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import OverlayMenu from './overlayMenu'
+import OverlayMenu from './OverlayMenu'
 import Logo from "../assets/Logo.png"
 import { useState } from 'react'
 import { IoMenu } from "react-icons/io5";
