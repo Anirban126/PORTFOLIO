@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6'
-import projectOne from '../assets/img1.JPG'
-import projectTwo from '../assets/img2.JPG'
-import projectThree from '../assets/img3.JPG'
+import projectOne from '../assets/img1.jpg'
+import projectTwo from '../assets/img2.jpg'
+import projectThree from '../assets/img3.jpg'
 
 const projects = [
   {
