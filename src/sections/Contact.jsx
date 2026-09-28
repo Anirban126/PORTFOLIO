@@ -83,7 +83,7 @@ const Contact = () => {
                             href='mailto:anirbankhanra.dev@gmail.com'
                             className='group block text-lg font-semibold text-white transition-colors hover:text-cyan-300'
                         >
-                            anirbankhanra.dev@gmail.com
+                            anirbankhanra01@gmail.com
                             <span className='mt-2 block h-px w-0 bg-cyan-300 transition-all duration-300 group-hover:w-full' />
                         </a>
                         <p className='text-sm uppercase tracking-[0.2em] text-slate-500'>
